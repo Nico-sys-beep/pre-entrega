@@ -1,0 +1,152 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {
+    background-color: #424242;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #000000;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #424242;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    width: 100%; 
+    bottom: 0;
+}
+
+.Titulo-Productos {
+    color: white;
+}
+
+.productos-container {
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: rgb(0, 225, 255);
+    padding: 3px;
+    border: 1px solid #ddd;
+    width: 30%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.reseñas-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.Titulo-Reseñas {
+    color: white;
+}
+
+.reseña {
+    background-color: #fff;
+    padding: 3px;
+    border: 1px solid #ddd;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Titulo-Contacto {
+    color: white;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #8f2626;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #9e0101;
+}
+
+form label {
+    color: white;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+     .productos-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+     .card {
+    width: 100%;
+    margin: 0 auto;
+     }
+
+     .reseñas-container {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+     .form input, form textarea {
+        width: 100%;
+    
+    }
+
+     .form button {
+        width: 100%;
+     }
+     
+     .footer {
+        padding: 10px;
+     }
+
+
+
+
+
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Rincon Nostalgico</h1>
+        <p>Bienvenidos a nuestro Rinconcito (👉ﾟヮﾟ)👉</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="productos">
+            <h2 class="Titulo-Productos">Productos</h2>
+            <div class="productos-container">
+                <div class="card">
+                    <img src="https://i.ytimg.com/vi/RMS7GgpHt8s/maxresdefault.jpg" alt="Producto 1">
+                    <h3></h3>
+                    <p>Juegos</p>
+                </div>
+                <div class="card">
+                    <img src="https://mosaic.scdn.co/640/ab67616d00001e0220e3b8f2b044117fe02790e1ab67616d00001e02608403692839a9771d0b0de4ab67616d00001e027c0f19586169cc92105c58a1ab67616d00001e02a8d88eb6a526683763e85e4c" alt="Producto 2">
+                    <h3></h3>
+                    <p>Musica</p>
+                </div>
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqyk4qLs1I8zd2-cOTZGDOirKgHNRl-avM6w&s" alt="Producto 3">
+                    <h3></h3>
+                    <p>Television</p>
+                </div>
+                <!-- Más cards aquí -->
+            </div>
+        </section>
+
+        <section id="reseñas">
+            <h2 class="Titulo-Reseñas">Estas son reseñas de algunas personas que han visto el contenido</h2>
+            <div class="reseñas-container">
+                <div class="reseña">En resumen, Street of Rage es un juego que ha resistido la prueba del tiempo. Con su jugabilidad accesible pero desafiante, su estilo visual distintivo y su música inconfundible, sigue siendo una de las mejores experiencias de beat 'em up de la era de los 16 bits. Si eres fanático de los juegos de acción, Street of Rage es un título imprescindible y un referente de su época.</div>
+                <div class="reseña">La música de los 80, y especialmente la de Luis Miguel, representa una mezcla de influencias globales con una profunda conexión con la música latina. En esa década, Luis Miguel consolidó su estatus como el "Sol de México", y su estilo único, que combinaba la emotividad de la balada con la frescura del pop y el glamour de los grandes artistas internacionales, lo convirtió en un referente de la música latina. La música de los 80, con sus sintetizadores, sus ritmos vibrantes y sus melodías inolvidables, sigue siendo una de las épocas más queridas por los amantes de la música.</div>
+                <div class="reseña">Saint Seiya es un clásico del anime que ha trascendido generaciones. Con su mezcla de acción épica, personajes entrañables y una historia que explora el sacrificio, la amistad y la lucha contra el mal, ha dejado una huella indeleble en la cultura popular. A pesar de los años que han pasado desde su emisión original, sigue siendo una de las series más queridas por los fanáticos del anime en todo el mundo.</div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2 class="Titulo-Contacto">Contacto</h2>
+            <form action="https://formspree.io/f/mvgoryay" method="POST">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Rincon Nostalgico. Todos los derechos reservados (⌐■_■).</p>
+    </footer>
+</body>
+</html>
